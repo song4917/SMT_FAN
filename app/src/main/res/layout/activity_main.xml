@@ -1,0 +1,23 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="환영합니다!" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="앱 사용을 위한 페어링을 시작합니다." />
+
+    <Button
+        android:id="@+id/pairingButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="페어링 시작" />
+
+</LinearLayout>
